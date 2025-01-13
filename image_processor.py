@@ -7,7 +7,7 @@ from datetime import datetime
 class ImageProcessorApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Image Processor")
+        self.root.title("Image Processor") 
         self.current_image = None
         self.photo = None
 
